@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #4da6ff;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .image-gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .image-gallery img {
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 8px;
+  }
+  
+  h1, h2 {
+    color: #003366;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    color: #333333;
+  }
+  
+  .solarSystemSection{
+    width: 100%;
+    text-align: center;
+  }
+
+  .spacePararaph{
+    background-color:#4da6ff;
+    padding: 10px;
+    border-radius: 1rem;
+    color: white;
+    
+  }
